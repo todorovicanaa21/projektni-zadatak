@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Kontakt | Grafički dizajn i digitalna štampa Novi Sad | Digital Print</title>
+
+  <meta name="description" content="Kontaktirajte Digital Print Novi Sad za grafički dizajn, logo dizajn, brendiranje i digitalnu štampu promotivnog materijala.">
+  <meta name="keywords" content="kontakt grafički dizajn Novi Sad, digitalna štampa Novi Sad, logo dizajn, brendiranje">
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://TVOJDOMEN.rs/kontakt.html">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="icons8-favicon-50.png">
+</head>
+
+
+<body>
+    <header>
+        <h1>Digital print</h1>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Logo" class="logo">
+
+        </div>
+    </header>
+    <div class="navigacija">
+      <nav aria-label="Glavna navigacija">
+        <ul>
+          <!-- Anchor text sa ključnim rečima -->
+          <li><a href="index.html">Grafički dizajn Novi Sad</a></li>
+          <li><a href="onama.html">Digitalna štampa flajera i brošura</a></li>
+          <li><a href="portfolio.html">Dizajn ambalaže i etiketa</a></li>
+          <li><a href="kontakt.html">Kontakt – Digital Print Novi Sad</a></li>
+        </ul>
+      </nav>
+    </div>
+        </header>
+        <form action="submit_form.php" method="post" class="kontakt-form">
+            <fieldset>
+                <legend>Kontaktirajte nas</legend>
+                <p>Molimo vas da popunite polja.</p>
+                <label for="lastName">Prezime</label><br>
+                <input type="text" name="prezime" id="lastName" placeholder="Vaše prezime"><br>
+                <label for="name">Ime</label><br>
+                <input type="text" name="ime" id="name" placeholder="Vaše ime"><br>
+                <label for="eml">Email</label><br>
+                <input type="email" name="email" id="eml" placeholder="Vaš email"><br>
+                <label for="brojTelefona">Broj telefona</label><br>
+                <input type="text" name="brojTelefona" id="brojTelefona" placeholder="Vaš broj telefona"><br>
+                <span>Koja od usluga Vam je potrebna:</span><br>
+                <input type="checkbox" name="usluge[]" id="usluga" value="Logotip"><label for="usluga">Logotip</label><br>
+                <input type="checkbox" name="usluge[]" id="usluga2" value="Dizajn"><label for="usluga2">Dizajn ambalaže/etiketa</label><br>
+                <input type="checkbox" name="usluge[]" id="usluga3" value="Plakat"><label for="usluga3">Plakat</label><br>
+                <input type="checkbox" name="usluge[]" id="usluga4" value="WebSite"><label for="usluga4">Web sajt</label><br>
+                <input type="checkbox" name="usluge[]" id="usluga5" value="Drugo"><label for="usluga5">Nešto drugo</label><br>
+                <label for="komentar">Kratak opis željene usluge</label><br>
+                <textarea name="komentar" id="komentar" cols="30" rows="10" placeholder="Vaš komentar"></textarea><br>
+                <input type="submit" value="Pošalji">
+                <input type="reset" value=" Obriši sve">
+            </fieldset>
+        </form>
+
+
+
+
+
+
+    <footer>
+        <p>&copy; 2024 Digital Print firma</p>
+
+    </footer>
+
+</body>
+
+</html>
